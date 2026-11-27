@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — Hooked</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #0b0d12;
+      --surface: #13161f;
+      --border: #2e3448;
+      --text: #f3f5fa;
+      --muted: #b0b8ce;
+      --accent: #ff4d4d;
+    }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+    }
+    main {
+      max-width: 820px;
+      margin: 40px auto;
+      padding: 0 20px 60px;
+    }
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 32px;
+    }
+    h1 { margin-top: 0; font-size: 2rem; }
+    h2 { margin-top: 28px; font-size: 1.2rem; color: #ffffff; }
+    p, li { color: var(--muted); }
+    .meta {
+      background: #1b1f2c;
+      border-left: 3px solid var(--accent);
+      padding: 12px 16px;
+      border-radius: 8px;
+      margin-bottom: 24px;
+      font-size: 0.95rem;
+    }
+    a { color: #ff8080; }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="card">
+      <h1>Privacy Policy for Hooked</h1>
+      <div class="meta">
+        <strong>Effective Date:</strong> [Month Day, Year]<br />
+        <strong>Operator:</strong> [Your Legal Name or Company Name] (&ldquo;we,&rdquo; &ldquo;us,&rdquo; or &ldquo;our&rdquo;)<br />
+        <strong>Contact Email:</strong> [support@yourdomain.com]<br />
+        <strong>Note:</strong> Replace bracketed placeholders and have qualified legal counsel review before publishing.
+      </div>
+
+      <p>This Privacy Policy explains how <strong>Hooked</strong> (&ldquo;the App&rdquo;) handles information when you use our mobile application and website. Hooked is designed to work without user accounts or logins.</p>
+
+      <h2>1. Information You Provide and Process</h2>
+      <ul>
+        <li><strong>Selected Videos and Audio:</strong> When you pick a video from your device using the Android Photo Picker (up to 200 MB), the App copies the file into private on-device storage to enable playback, highlight clip trimming, and AI analysis.</li>
+        <li><strong>AI Analysis Prompts &amp; Media Payloads:</strong> To detect highlight moments, hook scores, title ideas, and thumbnail concepts—and to generate AI thumbnail images—your selected video (or a compressed proxy/sampled frames) and thumbnail prompts are transmitted over encrypted HTTPS to <strong>Google Firebase AI Logic (Gemini models)</strong>.</li>
+        <li><strong>Device-Local History &amp; Cadence Metrics:</strong> Your upload history, highlight timestamps, exported short clips, generated thumbnail PNGs, and creator upload frequency metrics (upload counts, weekly streaks, packaging usage) are stored locally on your device.</li>
+      </ul>
+
+      <h2>2. Information Collected Automatically</h2>
+      <ul>
+        <li><strong>App Integrity &amp; Security Signals:</strong> Hooked uses <strong>Firebase App Check</strong> (including reCAPTCHA Enterprise in release builds) to verify that AI requests originate from our authentic app and to protect against abuse and automated attacks. This may involve device and app attestation signals processed by Google.</li>
+        <li><strong>No Advertising IDs or Cross-App Tracking:</strong> Hooked does not use third-party advertising SDKs, does not sell personal data, and does not track you across other apps or websites.</li>
+      </ul>
+
+      <h2>3. Storage Permissions</h2>
+      <p>Hooked uses the zero-permission <strong>Android Photo Picker</strong> so you grant access only to the specific video you choose. We do not request broad device storage or media-library permissions.</p>
+
+      <h2>4. How We Use Information</h2>
+      <ul>
+        <li>Analyze your video and audio to identify hook moments, scores, titles, and thumbnail concepts;</li>
+        <li>Generate 16:9 thumbnail images from your selected concepts;</li>
+        <li>Trim and export short highlight clips locally for sharing via your device&rsquo;s share sheet;</li>
+        <li>Display your personal upload history and upload cadence statistics on your device;</li>
+        <li>Protect backend AI endpoints from unauthorized access via Firebase App Check.</li>
+      </ul>
+
+      <h2>5. Third-Party Service Providers</h2>
+      <p>Hooked relies on <strong>Google Firebase (Firebase AI Logic and Firebase App Check)</strong> to perform cloud AI inference and app attestation. Data transmitted to Google is processed in accordance with the <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy Policy</a> and applicable Firebase terms.</p>
+
+      <h2>6. Data Retention and Deletion</h2>
+      <ul>
+        <li><strong>On-Device Data:</strong> Your videos, analysis results, exported clips, generated thumbnails, and cadence history remain strictly on your device. You can delete any individual upload (and its associated clips and thumbnails) inside the App at any time, or remove all local data by uninstalling the App or clearing App storage in Android settings.</li>
+        <li><strong>No User Accounts:</strong> Because Hooked does not offer user accounts or cloud profile syncing, there is no remote account database to delete.</li>
+      </ul>
+
+      <h2>7. Children&rsquo;s Privacy</h2>
+      <p>Hooked is not directed to children under 13 (or the applicable age of digital consent in your jurisdiction), and we do not knowingly collect personal information from children.</p>
+
+      <h2>8. International Data Transfers</h2>
+      <p>When AI inference requests are sent to Google Firebase AI Logic, media payloads and attestation signals may be processed on Google servers located outside your country or region, subject to appropriate safeguards.</p>
+
+      <h2>9. Changes to This Policy</h2>
+      <p>We may update this Privacy Policy from time to time. Any updates will be posted at this URL with a revised &ldquo;Effective Date.&rdquo;</p>
+
+      <h2>10. Contact Us</h2>
+      <p>If you have questions about this Privacy Policy or data handling in Hooked, contact <strong>[Your Legal Name or Company Name]</strong> at <strong>[support@yourdomain.com]</strong> or <strong>[Your Business Address]</strong>.</p>
+    </div>
+  </main>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Hooked</string>
+    <string name="tagline">AI Hook Finder &amp; Packaging Studio</string>
+    <string name="upload_video_cta">Upload Video</string>
+    <string name="upload_constraints">Up to 200 MB · Best under 10 min</string>
+    <string name="cadence_nav_label">Cadence</string>
+    <string name="results_tab_highlights">Highlights</string>
+    <string name="results_tab_packaging">Packaging</string>
+    <string name="export_clip">Export Clip</string>
+    <string name="share_clip">Share Clip</string>
+    <string name="generate_thumbnail">Generate Image</string>
+    <string name="regenerate_thumbnail">Regenerate</string>
+    <string name="share_thumbnail">Share</string>
+    <string name="copy_title">Copy title</string>
+    <string name="retry_analysis">Retry</string>
+    <string name="delete_video">Delete</string>
+    <string name="no_uploads_title">No videos analyzed yet</string>
+    <string name="no_uploads_subtitle">Pick a video from your gallery to extract high-retention hooks, 5 titles, and 5 AI-generated thumbnails.</string>
+</resources>

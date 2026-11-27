@@ -1,0 +1,6 @@
+{
+  "name": "Hooked",
+  "description": "AI video hook analyzer that finds best moments, generates title and thumbnail ideas with AI thumbnail creation, exports highlight clips, and tracks creator upload cadence.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
